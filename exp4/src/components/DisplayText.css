@@ -1,0 +1,13 @@
+/* DisplayText.css */
+
+.heading {
+    color: blue;
+    text-align: center;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+  }
+  
