@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Lifestyle Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #a8e063, #56ab2f);
+            color: #333;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: #1f4d3d;
+            border-bottom: 5px solid #f4a300;
+            position: relative;
+        }
+        .logo-container img {
+            height: 100px;
+            width: 150px;
+        }
+        .title {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4a300;
+        }
+        main {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        section, article {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            flex-basis: 48%;
+        }
+        .wide {
+            flex: 2;
+        }
+        .narrow {
+            flex: 1;
+        }
+        footer {
+            background: #1f4d3d;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border-top: 5px solid #f4a300;
+        }
+        .footer-left nav a {
+            color: #f4a300;
+        }
+        .footer-left nav a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="health.avif" alt="Healthy Lifestyle Logo">
+        </div>
+        <div class="title">Healthy Lifestyle Hub</div>
+        <nav>
+            <a href="#">Nutrition</a> |
+            <a href="#">Fitness</a> |
+            <a href="#">Mental Well-being</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="wide">
+                <section>
+                    <h2>Healthy Eating</h2>
+                    <p>Discover balanced diets, healthy recipes, and nutritional tips for a healthier lifestyle.</p>
+                </section>
+                <section>
+                    <h2>Fitness Routines</h2>
+                    <p>Explore effective workout plans, exercises, and training tips for staying fit and active.</p>
+                </section>
+                <section>
+                    <h2>Mental Wellness</h2>
+                    <p>Learn about mindfulness, stress reduction, and maintaining a positive mental attitude.</p>
+                </section>
+                <section>
+                    <h2>Wellness Retreats</h2>
+                    <p>Find top wellness retreats and spas that help you relax and rejuvenate your body and mind.</p>
+                </section>
+            </div>
+
+            <article class="narrow">
+                <h2>Success Stories</h2>
+                <p>"I've lost 20 pounds and feel more energetic than ever! This lifestyle change has transformed my life." - Sarah J.</p>
+                <aside>
+                    <h3>What Experts Say</h3>
+                    <p>"A balanced approach to fitness, diet, and mental health leads to sustainable results." - Dr. Lisa M.</p>
+                </aside>
+            </article>
+
+            <article class="narrow">
+                <h2>Top Healthy Apps</h2>
+                <p>Discover the best apps for tracking your diet, workouts, and mental health to help you stay on track.</p>
+                <aside>
+                    <p>From fitness trackers to mindfulness apps, these tools can improve your daily routine.</p>
+                </aside>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <nav>
+                <a href="#">About Us</a> |
+                <a href="#">Contact</a> |
+                <a href="#">Privacy Policy</a>
+            </nav>
+        </div>
+        <p>&copy; 2025 Healthy Lifestyle Hub</p>
+    </footer>
+
+</body>
+</html>
+

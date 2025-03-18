@@ -1,0 +1,115 @@
+<html>
+
+<head>
+
+<title>
+
+Registration Page
+
+</title>
+<link rel="stylesheet" href="exp2.css">
+</head>
+
+<body>
+
+<br>
+
+<br>
+
+<form>
+
+
+<label> Enter username </label>
+
+<input type="text" name="username" size="15"/> <br> <br>
+
+<label> Enter password </label>
+
+<input type="password" name="password" size="15"/> <br> <br>
+
+<label>Address</label>
+
+<br>
+
+<textarea cols="80" rows="5" value="address">
+
+</textarea>
+<br><br>
+<label>
+Field of Interest :
+</label>
+
+<input type="radio" id="entertainment" name="field_of_interest" value="Entertainment" onclick="disableOthers(this)" /> Entertainment
+<input type="radio" id="sports" name="field_of_interest" value="Sports" onclick="disableOthers(this)" /> Sports
+<input type="radio" id="news" name="field_of_interest" value="News" onclick="disableOthers(this)" /> News
+
+
+<br>
+<br>
+
+<label>
+    Gender :
+    </label>
+    
+    <input type="radio" id="Male" name="field_of_interest" value="Male" onclick="disableOthers(this)" /> Male
+    <input type="radio" id="Female" name="field_of_interest" value="Female" onclick="disableOthers(this)" /> Female
+
+<br><br>
+
+
+<label for="languages">Select languages :</label>
+<select id="languages" name="languages" multiple>
+  <option value="English">English</option>
+  <option value="Spanish">Spanish</option>
+  <option value="French">French</option>
+  <option value="German">German</option>
+  <option value="Chinese">Chinese</option>
+  <option value="Japanese">Japanese</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Arabic">Arabic</option>
+  <option value="Russian">Russian</option>
+  <option value="Portuguese">Portuguese</option>
+  <option value="Italian">Italian</option>
+  <option value="Korean">Korean</option>
+  <option value="Dutch">Dutch</option>
+  <option value="Swedish">Swedish</option>
+</select>
+<br><br>
+
+<label>
+
+    Select country:
+    
+    </label>
+    
+    <select>
+    
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+        <option value="China">China</option>
+    
+    </select>
+    
+    
+    <br>
+    <br>
+
+
+<label for="photo">Upload Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    <br><br>
+<input type="button" value="Validate" >
+<input type="reset" value="Reset">
+<input type="button" value="Submit"/>
+
+</form>
+
+</body>
+
+</html>
